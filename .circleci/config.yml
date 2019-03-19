@@ -20,3 +20,7 @@ jobs:
       - run:
           name: build app
           command: ./gradlew assembleDebug
+          
+      - run:
+          name: Android Lint
+          command: ./gradlew lintDebug
